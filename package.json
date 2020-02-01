@@ -1,0 +1,31 @@
+{
+  "name": "chat-sample",
+  "version": "1.0.0",
+  "description": "chat sample build in react",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sauloarth",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.2"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+		  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
